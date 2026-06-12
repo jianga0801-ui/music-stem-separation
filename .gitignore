@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Models (downloaded at runtime — never commit, several GB)
+models/
+audio-separator-models/
+
+# Audio in/out — don't commit generated stems or test material
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.aac
+*.ogg
+干声分离/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
