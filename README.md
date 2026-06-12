@@ -1,5 +1,7 @@
 # 🎙️ music-stem-separation
 
+<p align="right"><b>English</b> · <a href="README.zh-CN.md">简体中文</a></p>
+
 A best-quality, **cross-platform** (Windows / macOS / Linux) pipeline for pulling a clean, **dropout-free dry vocal** out of mixed music — plus the instrumental, harmonies, and extracted reverb along the way.
 
 It avoids aggressive single models (which cause "vocal dropouts" where notes get eaten) by combining multi-model **ensembles** with light physical EQ. All OS-specific logic lives in one Python driver, so the same command works everywhere.
